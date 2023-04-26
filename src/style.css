@@ -1,1 +1,36 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+/* @import "~bootstrap/dist/css/bootstrap.min.css"; */
+
+body {
+  background-color: green;
+}
+
+.carta {
+  border-radius: 10px;
+  background-color: white;
+  height: 400px;
+  width: 270px;
+  margin: 0 auto;
+}
+
+.numero {
+  text-align: center;
+  font-size: 65px;
+}
+
+.izq {
+  padding-left: 20px;
+  padding-top: 8px;
+  font-size: 70px;
+}
+
+.der {
+  margin-top: 105px;
+  margin-left: 205px;
+
+  font-size: 70px;
+}
+
+.boton {
+  display: flex;
+  justify-content: center;
+}
